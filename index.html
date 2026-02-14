@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portfolio Zafata Anugrah</title>
+    <title>Zafata Anugrah</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
@@ -318,7 +318,7 @@ header {
     <p><span id="typing"></span></p>
 </header>
 
-    <p>Student | Developer</p>
+    <p>Programmer | Developer</p>
 
 </header>
 
@@ -351,40 +351,6 @@ header {
     </div>
 
 </section>
-
-<script>
-    const text = "";
-    let i = 0;
-    const speed = 100;
-
-    function typeEffect() {
-        if (i < text.length) {
-            document.getElementById("typing").innerHTML += text.charAt(i);
-            i++;
-            setTimeout(typeEffect, speed);
-        } else {
-            document.querySelector(".cursor").style.display = "none";
-        }
-    }
-
-    window.onload = typeEffect;
-</script>
-
-<script>
-window.addEventListener("load", function() {
-    const loader = document.getElementById("loader");
-
-    setTimeout(() => {
-        loader.style.opacity = "0";
-        loader.style.transition = "0.5s ease";
-
-        setTimeout(() => {
-            loader.style.display = "none";
-        }, 500);
-
-    }, 1500); // durasi loading (1.5 detik)
-});
-</script>
 
 </body>
 </html>
